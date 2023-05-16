@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option_a_affairs">
+        <item> nawaz sharif</item>
+        <item> Allama iqbal</item>
+        <item> mount everest</item>
+        <item>qamar javed bajwa</item>
+        <item>ravi </item>
+        <item>arif alvi</item>
+        <item>lion</item>
+        <item>16 aug, 1999</item>
+        <item> qasim ali shah</item>
+        <item>june28, 2001 </item>
+
+    </string-array>
+</resources>

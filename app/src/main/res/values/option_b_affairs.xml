@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option_b_affairs">
+        <item>shahbaz sharif</item>
+        <item>Muhammad ali jinnah</item>
+        <item> Lhotse</item>
+        <item>raheel sharif</item>
+        <item>jhelum</item>
+        <item>buzdar</item>
+        <item>Markhor</item>
+        <item>14 aug, 1958</item>
+        <item>ahmed khan</item>
+        <item>june28, 1999 </item>
+
+    </string-array>
+</resources>

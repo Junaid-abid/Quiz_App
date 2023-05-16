@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Pakistan_affair">
+        <item>Who is the current Prime Minister of Pakistan?</item>
+        <item>Who is the founder of Pakistan?</item>
+        <item>What is the name of the highest peak in Pakistan ?</item>
+        <item>Who is the current Chief of Army Staff of Pakistan?</item>
+        <item> Which river is known as the lifeline of Pakistan?</item>
+        <item>Who is the current President of Pakistan?</item>
+        <item>What is the national animal of Pakistan?</item>
+        <item>When did Pakistan gain independence from British rule ?</item>
+        <item>Who is the current Chief Justice of Pakistan?</item>
+        <item>When did Pakistan become a nuclear power?</item>
+    </string-array>
+</resources>

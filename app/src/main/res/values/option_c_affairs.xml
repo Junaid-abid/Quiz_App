@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option_c_affairs">
+        <item> imran khan</item>
+        <item> liquat ali khan</item>
+        <item> Mount Kangchenjunga</item>
+        <item>Asim munir</item>
+        <item>kabul</item>
+        <item>shah mehmood</item>
+        <item>Gorilla</item>
+        <item>14 aug, 1949</item>
+        <item>justice Gulzar khan</item>
+        <item>june28, 1994 </item>
+
+    </string-array>
+</resources>

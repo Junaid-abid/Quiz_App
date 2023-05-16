@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option_d_affairs">
+        <item>zardari</item>
+        <item>munir ahmed</item>
+        <item>K2</item>
+        <item>Yahya khan</item>
+        <item>Indus River</item>
+        <item>ahmed shah</item>
+        <item>leopard</item>
+        <item>14 aug, 1947</item>
+        <item>Gulzar khan</item>
+        <item>May 28, 1998</item>
+
+    </string-array>
+</resources>

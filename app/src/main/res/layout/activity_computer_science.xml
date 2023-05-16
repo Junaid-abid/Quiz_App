@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Computer_science"
+    android:weightSum="8"
+    android:orientation="vertical"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+
+        android:background="#2196F3"
+
+        android:backgroundTint="#03A9F4"
+
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="01"
+            android:textSize="50sp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="/10"
+            android:textSize="50dp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="6"
+        android:weightSum="9"
+        android:orientation="vertical"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="2"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFC107">
+
+            <TextView
+                android:id="@+id/qes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+
+                android:paddingLeft="20dp"
+                android:text="Questions"
+                android:textSize="20sp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/ans"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:paddingLeft="0dp"
+
+            android:text="Choose Your Answer"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#FFC107"
+            android:backgroundTint="#FF9800"
+            android:elevation="10dp"
+
+            app:cardCornerRadius="10dp">
+
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FF9800"
+                android:text="True" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#FF9800"
+            android:backgroundTint="#FF9800"
+            android:elevation="10dp"
+
+            app:cardCornerRadius="10dp">
+
+            <CheckBox
+                android:id="@+id/check2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="False"
+
+
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="3"
+
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+
+          android:background="@drawable/baseline_arrow_back_ios_24"
+
+
+            android:contentDescription="TODO" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:lottie_rawRes="@raw/book"
+            app:lottie_autoPlay="true"
+            app:lottie_repeatMode="reverse"
+            app:lottie_repeatCount="@integer/material_motion_duration_long_2"
+            app:lottie_renderMode="hardware"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/baseline_arrow_forward_ios_24"
+            android:layout_weight="1"
+            android:contentDescription="TODO" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
